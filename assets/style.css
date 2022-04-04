@@ -1,0 +1,114 @@
+body {
+   font-family: 'Archivo', sans-serif;;
+   
+}
+
+.mainNav {
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.aboutMeContainer {
+    
+    padding: 10px;
+    margin: 25px 50px 50px 80px;
+   
+    justify-content: center;
+}
+
+#picture {
+    max-height: 400px;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: 120px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#mainHeader {
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+}
+
+#aboutMe {
+    text-align: center;
+    font-size: 40px;
+}
+
+#abtMeTxt {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#imgCol {
+    justify-content: center;
+}
+
+#nbaWizardCol {
+    border: 1.5px solid black;
+    margin-left: 80px;
+    min-height: 250px;
+    margin-bottom: 25px;
+    background-image: url(./images/testteambanner.png);
+    border-radius: 30px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#nbaDesc {
+    font-size: 20px;
+}
+
+.projCard {
+    border: 1.5px solid black;
+    margin: 25px;
+    min-height: 200px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.contactImages {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contactCard {
+min-height: 200px;
+margin-bottom: 20px;
+border: none;
+
+}
+
+.contactCard h5 {
+    justify-content: center;
+}
+
+.card-body {
+    justify-content: center;
+}
+
+.projectTitle {
+    background-color: white;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    padding: 8px;
+    font-size: 1.75rem;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#weatherDash {
+    background-image: url(./images/weatherPic.jpeg);
+}
+
+#runBuddy {
+    background-image: url(./images/runningPic.jpeg);
+}
+
+#passGen {
+    background-image: url(./images/gears2_1600x400.png);
+}
