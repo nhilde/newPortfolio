@@ -12,7 +12,7 @@ My portfolio gives me a place to showcase my work and show possible future emplo
 
 The application can be accessed by either the repository or through the link provided below.
 
-[Portfolio](https://nhilde.github.io/Portfolio/)
+[Portfolio](https://nhilde.github.io/newPortfolio/)
 
 ## Usage
 
