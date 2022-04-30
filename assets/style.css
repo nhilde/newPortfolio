@@ -46,13 +46,13 @@ body {
 }
 
 #nbaWizardCol {
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
     margin-left: 80px;
     min-height: 250px;
     margin-bottom: 25px;
-    background-image: url(./images/testteambanner.png);
-    border-radius: 30px;
-    box-shadow: 5px 10px 8px #888888;
+    /* background-image: url(./images/nbaWiz.png); */
+
+    /* box-shadow: 5px 10px 8px #888888; */
 }
 
 #nbaDesc {
@@ -60,11 +60,11 @@ body {
 }
 
 .projCard {
-    border: 1.5px solid black;
+    border-left: 2px solid black;
     margin: 25px;
     min-height: 200px;
-    border-radius: 30px;
-    box-shadow: 5px 10px 8px #888888;
+ 
+    
 }
 
 .contactImages {
@@ -91,7 +91,7 @@ border: none;
 
 .projectTitle {
     background-color: white;
-    border-radius: 30px;
+  
     border: 1.5px solid black;
     padding: 8px;
     font-size: 1.75rem;
@@ -101,7 +101,13 @@ border: none;
     
 }
 
-#weatherDash {
+.projectScreenshot {
+    max-height: 600px;
+    max-width: 500px;
+    border: 1.5px solid black;
+}
+
+/* #weatherDash {
     background-image: url(./images/weatherPic.jpeg);
 }
 
@@ -111,4 +117,110 @@ border: none;
 
 #passGen {
     background-image: url(./images/gears2_1600x400.png);
+} */
+
+.appCol {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
+
+.appRow {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 50px;
+    margin-right: 50px;
+    background-color: #1f1f1f;
+    border-radius: 180px;
+    padding: 10px; */
+}
+
+.appName {
+    text-decoration: none;
+    font-size: 3rem;
+    color: black;
+}
+
+.projectLinks {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-toggler {
+      display: none;
+    }
+
+    .contactImages {
+        max-width: 75px;
+        max-height: 75px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    #contactRow {
+        justify-content: center;
+        
+    }
+
+    #contact {
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+   .descriptions {
+       display: none;
+   }
+
+   .splitCol {
+       display: none;
+   }
+
+   #picture {
+       margin: 0px;
+   }
+
+   .picRow {
+       justify-content: center;
+   }
+
+   .display-4 {
+       justify-content: center;
+       align-items: center;
+   }
+   #nbaWizardCol {
+       display: none;
+   }
+
+   body {
+       padding: 10px;
+   }
+
+   .projectScreenshot {
+    max-height: 500px;
+    max-width: 400px;
+    border: 1.5px solid black;
+    }
+
+    .appName {
+        font-size: 2rem;
+    }
+
+    .projectLinks {
+        font-size: 1.25rem;
+    }
+
+    #mainHeader {
+        font-size: 3rem;
+    }
+
+}
+
+  @media screen and (max-width: 1600px) {
+      #mainApp {
+          display: none;
+      }
+  }

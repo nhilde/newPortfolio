@@ -9,10 +9,10 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300&display=swap" rel="stylesheet">
     <title>Noah Hildebrand's Portfolio</title>
 </head>
 
@@ -47,10 +47,10 @@
     </div>
 
     <div class="container-fluid aboutMeContainer">
-        <div class="row">
-            <div class="col-6">
+        <div class="row picRow">
+            <div class="col-6 splitCol">
                 <h2 id="aboutMe">About Me</h2>
-                <p id="abtMeTxt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea provident atque quae
+                <p class="descriptions" id="abtMeTxt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea provident atque quae
                     eligendi beatae, laborum quidem
                     iusto nam reprehenderit autem temporibus assumenda, non et ut voluptatem explicabo velit aliquam
                     alias. Lorem ipsum
@@ -73,18 +73,24 @@
     </div>
 
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-4" id="nbaWizardCol">
-                <h3> <a href="https://nhilde.github.io/nba-wizard/" class="projectTitle">NBA Wizard </a></h3>
+    <div class="container-fluid" id="mainApp">
+        <div class="row appRow">
+            <div class="col-4 appCol" id="nbaWizardCol">
+                <img src="./assets/images/nbaWiz2.png" class="projectScreenshot">
             </div>
 
-            <div class="col-6" id="nbaDesc">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias earum eligendi reiciendis nulla.
-                    Natus voluptatibus,
-                    dolore quis obcaecati consequuntur ad mollitia, at porro asperiores earum architecto repellat quasi
-                    itaque voluptatem?
+            <div class="col-6 splitCol" id="nbaDesc">
+                <h3> <a href="https://nhilde.github.io/nba-wizard/" class="appName">NBA Wizard</a></h3>
+                <p class="descriptions">So far NBA Wizard is my favorite project yet. I am a huge basketball fan and building something
+                    related to a passion of mine really secures this project a special place in my heart.
+                    Especially with it being one of the first larger scale projects I have worked on. NBA Wizard is not
+                    just mine though, with the GitHub links to my fellow NBA fans and groupmates linked
+                    in the project's repository.
                 </p>
+                <br>
+                <a href="https://github.com/nhilde/nba-wizard" class="projectLinks">GitHub Repository</a>
+                <br>
+                <a href="https://nhilde.github.io/nba-wizard/" class="projectLinks">Deployed Application</a>
             </div>
 
         </div>
@@ -92,65 +98,79 @@
 
     <div class="container-fluid" id="work">
 
-        <div class="row justify-content-center">
-            <div class="col-10 projCard" id="weatherDash">
-                <h3> <a href="https://nhilde.github.io/weatherDashboard/" class="projectTitle">Weather Dashboard </a></h3>
+        <div class="row justify-content-center appRow">
+            <div class="col-8 appCol">
+                <h3> <a href="https://nhilde.github.io/PasswordGenerator/" class="appName">Password Generator</a></h3>
+                <img src="./assets/images/03-javascript-homework-demo copy.png" class="projectScreenshot">
+                <a href="https://github.com/nhilde/PasswordGenerator" class="projectLinks">GitHub Repository</a>
+                <br>
+                <a href="https://nhilde.github.io/PasswordGenerator/" class="projectLinks">Deployed Application</a>
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-10 projCard" id="passGen">
-                <h3> <a href="https://nhilde.github.io/PasswordGenerator/" class="projectTitle">Password Generator</a></h3>
+        <div class="row justify-content-center appRow">
+            <div class="col-8 appCol">
+                <h3> <a href="https://nhilde.github.io/PasswordGenerator/" class="appName">Weather Dashboard</a></h3>
+                <img src="./assets/images/weatherDash copy.png" class="projectScreenshot">
+                <a href="https://github.com/nhilde/weatherDashboard" class="projectLinks">GitHub Repository</a>
+                <br>
+                <a href="https://nhilde.github.io/weatherDashboard/" class="projectLinks">Deployed Application</a>
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-10 projCard" id="runBuddy">
-                <h3> <a href="https://github.com/nhilde" class="projectTitle">Run Buddy</a></h3>
+        <div class="row justify-content-center appRow">
+            <div class="col-8 appCol">
+                <h3> <a href="https://nhilde.github.io/PasswordGenerator/" class="appName">Film Fan</a></h3>
+                <img src="./assets/images/filmfan copy.png" class="projectScreenshot">
+                <a href="https://github.com/nhilde/film-fan-nh" class="projectLinks">GitHub Repository</a>
+                <br>
+                <a href="https://morning-escarpment-82921.herokuapp.com/" class="projectLinks">Deployed Application</a>
             </div>
         </div>
+
+
 
     </div>
 
     <div class="container-fluid" id="contact">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center " id="contactRow">
 
             <div class="col-3 justify-content-center">
-                <div class="card text-center contactCard justify-content-center style="width: 18rem;">
+                <div class="card text-center contactCard justify-content-center style=" width: 18rem;">
                     <div class="card-body">
-                        
+
                         <a href="mailto:nhilde21@gmail.com">
-                        <img src="./assets/images/newGmail.png" class="contactImages">
-                        <br>
+                            <img src="./assets/images/newGmail.png" class="contactImages">
+                            <br>
                         </a>
-                        
-                       
+
+
                     </div>
                 </div>
             </div>
 
             <div class="col-3 justify-content-center">
-                <div class="card text-center contactCard justify-content-center style="width: 18rem;">
+                <div class="card text-center contactCard justify-content-center style=" width: 18rem;">
                     <div class="card-body">
-                        
+
                         <a href="https://github.com/nhilde" class="card-link">
-                        <img src="./assets/images/newgithublogo.png" class="contactImages">
-                        <br>
+                            <img src="./assets/images/newgithublogo.png" class="contactImages">
+                            <br>
                         </a>
-                        
+
                     </div>
                 </div>
             </div>
 
             <div class="col-3 justify-content-center">
-                <div class="card text-center contactCard justify-content-center style="width: 18rem;">
+                <div class="card text-center contactCard justify-content-center style=" width: 18rem;">
                     <div class="card-body">
-                        
+
                         <a href="https://www.linkedin.com/in/noah-hildebrand-46677b233/" class="card-link">
-                        <img src="./assets/images/newlinkedinlogo.png" class="contactImages">
-                        <br>
+                            <img src="./assets/images/newlinkedinlogo.png" class="contactImages">
+                            <br>
                         </a>
-                       
+
                     </div>
                 </div>
             </div>
